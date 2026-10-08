@@ -598,20 +598,19 @@ export default function Home() {
                 paragraph 
                 sx={{ fontSize: '1.1rem', lineHeight: 1.7 }}
               >
-                With over 5 years of experience in web development, I specialize in creating
-                high-performance, responsive web applications using React, Next.js, and Node.js. My
-                approach combines technical expertise with a strong focus on user experience and clean,
-                maintainable code.
+                I am an Information Technology student at Metropolitan Community College, studying
+                programming and software development. I have experience learning Java, HTML, and CSS,
+                and I am continuing to develop my full stack development skills.
               </Typography>
               <Typography 
                 variant="body1" 
                 paragraph
                 sx={{ fontSize: '1.1rem', lineHeight: 1.7 }}
               >
-                Previously, I worked at XYZ Technologies where I led the frontend development team,
-                improving application performance by 40% and implementing CI/CD pipelines that reduced
-                deployment time by 65%. I&apos;m passionate about sharing knowledge and have contributed to
-                several open-source projects.
+                I am also the founder of XdelNow, a delivery platform startup that I am currently
+                developing. XdelNow is designed to connect customers with local restaurants and stores
+                for ordering and delivery services. My goal is to launch the platform in Omaha,
+                Nebraska, and expand to other markets in the future.
               </Typography>
               
               {/* Resume download button */}
