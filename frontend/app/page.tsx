@@ -46,6 +46,7 @@ import {
   Typography, // Text component with different variants
   useMediaQuery, // Hook to check media queries
 } from "@mui/material";
+import ProjectLinks from '../components/ProjectLinks'
 
 // Main component for the entire page
 export default function Home() {
@@ -699,25 +700,11 @@ export default function Home() {
                   
                   {/* Card actions - buttons for code and demo */}
                   <CardActions sx={{ p: 2, pt: 0 }}>
-                    <Button 
-                      size="small" 
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<FaGithub />}
-                    >
-                      Code
-                    </Button>
-                    <Button 
-                      size="small" 
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      color="primary"
-                    >
-                      Live Demo
-                    </Button>
-                  </CardActions>
+                   <ProjectLinks
+                   githubUrl={project.github}
+                   demoUrl={project.demo}
+                   />
+                 </CardActions>
                 </Card>
               ))}
             </Box>
