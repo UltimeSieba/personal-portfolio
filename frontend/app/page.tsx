@@ -259,31 +259,35 @@ export default function Home() {
 
   // Sample project data - replace with your own
   const projectsData = [
-    {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration that handles 10,000+ monthly transactions.",
-      image: "/project1.jpg",
-      technologies: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/johndoe/ecommerce",
-      demo: "https://ecommerce-demo.example.com"
-    },
-    {
-      title: "SaaS Analytics Dashboard",
-      description: "An analytics dashboard for SaaS businesses with real-time data visualization and custom reporting features.",
-      image: "/project2.jpg",
-      technologies: ["Next.js", "TypeScript", "D3.js"],
-      github: "https://github.com/johndoe/saas-dashboard",
-      demo: "https://saas-dashboard.example.com"
-    },
-    {
-      title: "AI Chat Application",
-      description: "A real-time chat application with AI-powered responses and language translation supporting 20+ languages.",
-      image: "/project3.jpg",
-      technologies: ["React", "Socket.io", "OpenAI API"],
-      github: "https://github.com/johndoe/ai-chat",
-      demo: "https://ai-chat.example.com"
-    },
-  ];
+  {
+    title: "Retail Store System",
+    description:
+      "A Java application that manages store inventory, processes sales, and tracks customer rewards.",
+    image: "/project1.jpg",
+    technologies: ["Java"],
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Restaurant Bill Calculator",
+    description:
+      "A Java program that calculates a restaurant bill, including tax, tip, and the total amount.",
+    image: "/project2.jpg",
+    technologies: ["Java"],
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Change Calculator",
+    description:
+      "A Java program that calculates the number of dollars and coins needed to return change to a customer.",
+    image: "/project3.jpg",
+    technologies: ["Java"],
+    github: "",
+    demo: "",
+  },
+];
+
 
   // Frontend skills with proficiency levels
   const frontendSkills = [
