@@ -501,8 +501,9 @@ export default function Home() {
                   color="text.secondary" 
                   sx={{ fontSize: '1.1rem', mt: 3, mb: 4 }}
                 >
-                  I build web applications and software solutions using modern technologies 
-                  while continuously expanding my skills in full stack development.
+                  
+ I am an IT student at Metropolitan Community College learning software development.
+ I build web applications and continue improving my full stack development skills.
                 </Typography>
                 <Box sx={{ display: "flex", gap: 2, mt: 3 }}>
                   <Button
