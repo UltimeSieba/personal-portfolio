@@ -553,7 +553,15 @@ export default function Home() {
                     }
                   }}
                 >
-                  {/* You can put a picture of yourself here, or keep it empty/remove the circle.  */}
+                 
+<Image
+  src="/DSC_0900.jpg"
+  alt="Lapan Sieba profile picture"
+  fill
+  sizes="(max-width: 600px) 280px, 360px"
+  style={{ objectFit: "cover", objectPosition: "center 30%" }}
+/>
+
                 </Box>
               </MuiGrid>
             </MuiGrid>
