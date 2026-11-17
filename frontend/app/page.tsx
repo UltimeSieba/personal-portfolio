@@ -526,7 +526,17 @@ export default function Home() {
                   >
                     View Work
                   </Button>
-                </Box>
+                
+
+  <Button
+    component="a"
+    href="/Lapan-Sieba-Resume.pdf"
+    download
+    variant="outlined"
+    >
+     Download Resume
+  </Button>
+</Box>
               </MuiGrid>
               {/* Right side - Profile image */}
               <MuiGrid sx={{ textAlign: "center" }}>
